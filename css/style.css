@@ -19,17 +19,16 @@ section {
     padding-bottom: 150px;
 }
 
+a:hover {
+ color: #db4f4b;
+}
+
 button {
     cursor: pointer;
 }
 
 button:hover{
     background-image: linear-gradient(90deg, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 0%);
-}
-
-a:hover{
-    font-weight: ;
-    padding: -1;
 }
 
 .header {
@@ -410,8 +409,29 @@ padding: 4px 47px 6px;
 }
 
 .fruit-button{
-        background: transparent;
+        background: #9dc262;
         border: none;
+        font-weight: 500;
+        border-radius: 100%;
+font-size: 18px;
+line-height: 133%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+transform: rotate(-14deg);
+width: 114px;
+height: 114px;
+}
+
+.fruit-button span::before{
+    content: "";
+    background-image: url(../images/icons/arrow.svg);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+    margin-bottom: -2px;
+    transform: rotate(14deg);
 }
 
 .covered-title {
