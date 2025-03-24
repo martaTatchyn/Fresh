@@ -4,6 +4,10 @@ body {
     font-family: DM Sans;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 1215px;
     margin: 0 auto;
@@ -91,6 +95,7 @@ margin-right: 495px;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 80% 3%, 22% 20%, center 30%;
     background-size: auto, auto, 452px 702px;
+    padding-bottom: 0;
 }
 
 .fresh-title {
@@ -191,6 +196,10 @@ text-transform: uppercase;
 text-align: center;
 color: #fff;
 background-color: transparent;
+}
+
+.fresh-list-item-button:hover{
+    background-image: linear-gradient(90deg, rgba(237,100,100,0.10270045518207283) 0%, rgba(237,100,100,0.10270045518207283) 0%)
 }
 
 .fresh-button-container{
