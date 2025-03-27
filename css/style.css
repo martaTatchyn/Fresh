@@ -205,10 +205,7 @@ background-color: transparent;
 .fresh-button-container{
     display: flex;
     justify-content: center;
-    margin-top: -190px;
-}
-
-.fresh-button {
+    margin-top: -220px;
     background: transparent;
     border: none;
 }
